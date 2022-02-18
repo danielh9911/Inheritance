@@ -1,0 +1,38 @@
+package tutorial;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashset;
+import java.util.LinkedList;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.HashMap;
+import java.util.Map;
+public class _1_13_Creating_Classes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		_1_13_Dog tim = new _1_13_Dog("tim", 4);
+		_1_13_Dog jim = new _1_13_Dog("jim", 8);
+		_1_13_Dog wim = new _1_13_Dog("wim", 3);
+		_1_13_Dog cim = new _1_13_Dog("cim", 5);
+		_1_13_Dog rim = new _1_13_Dog("rim", 7);
+		_1_13_Dog dim = new _1_13_Dog("dim", 5);
+		_1_13_Dog pimp = new _1_13_Dog("pimp", 9);
+		tim.speak() ;
+		jim.speak() ;
+		wim.speak() ;
+		cim.speak() ;
+		rim.speak() ;
+		dim.speak() ;
+		pimp.speak() ;
+		
+		int x = tim.getAge();
+		System.out.println(x);
+		
+		tim.setAge(12);
+		tim.speak();
+	}
+}
