@@ -1,0 +1,23 @@
+package tutorial;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashset;
+import java.util.LinkedList;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.HashMap;
+import java.util.Map;
+
+public class _1_14_Cat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		_1_14_Inheritance tim = new _1_14_Inheritance("tim", 18, 100);
+		tim.speak();
+	}
+	
+	
+}
